@@ -1,0 +1,92 @@
+/*.user {
+  display: flex;
+  flex-flow: column nowrap;
+
+}*/
+
+/*.main-container {
+    display: flex;
+  flex-flow: column nowrap;
+  flex: 1 1 auto;
+  font-size: 1.3em;
+  margin: 0.5rem;
+  line-height: 2.3;
+}
+*/
+
+.candidate-info {
+  text-align: center;
+}
+
+.flexbox-table {
+
+  display: flex;
+  flex-flow: column nowrap;
+  flex: 1 1 auto;
+  /*font-size: .6em;*/
+  margin: 0.5rem;
+  line-height: 2.3;
+	
+}
+
+
+.flexbox-row {
+	width: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+}
+
+
+.flexbox-row:nth-of-type(even) {
+  background-color: white;
+}
+
+.flexbox-row:nth-of-type(odd) {
+  background-color: #BAF3E1;
+}
+
+
+
+.flexbox-cell {
+	display: flex;
+	/*justify-content: center;*/
+  flex-flow: row nowrap;
+  flex-grow: 1;
+  flex-basis: 0;
+  padding: 0.5em;
+  word-break: break-word;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  min-width: 0px;
+  white-space: nowrap;
+  border-bottom: 1px solid #d0d0d0;
+  font-family: "Times New Roman", Georgia, Serif;
+  font-size: 1.1em;
+
+}
+
+.emphasis {
+  color: #A70CA2;
+}
+
+
+.user-name {
+	font-size: 2.2em;
+	display: flex;
+	justify-content: space-around;
+	color: #C630CA;;
+	font-family: Dosis;
+}
+
+
+.title {
+	color: #A42E4F;
+	font-size: 1.8em;
+	font-family: Atma;
+	font-family: Chelsea Market;
+	font-family: Prata;
+	font-family: Raleway;
+}
+
+
